@@ -7380,7 +7380,11 @@ form .row:first-child .floating-label-form-group {
   color: #fff; }
 
 .copyright {
-  background-color: black; }
+  background-color: black;
+  color: grey; }
+
+  .copy-grey {
+    color: grey;  }
 
 #brandImage {
   height: 2rem; }
