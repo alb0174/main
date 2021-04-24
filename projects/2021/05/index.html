@@ -15,9 +15,6 @@
     <!-- Fonts CSS-->
     <link rel="stylesheet" href="css/heading.css">
     <link rel="stylesheet" href="css/body.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
@@ -524,7 +521,7 @@
                 <div class="container text-center">
                     <p><small>Made with <span class="sr-only screen-reader-text">love</span><span class="bp-heart"><i
                                     class="far fa-heart"></i></span> by <a href="https://albertosavarino.it"
-                                target="_blank" rel="nofollow" title="Bootstrap">AS</a></small></p>
+                                target="_blank" rel="nofollow" rel="noopener" title="Bootstrap">AS</a></small></p>
                 </div>
 
             </div>
@@ -532,9 +529,7 @@
     </footer>
     <!-- Copyright Section-->
     <section class="copyright py-4 text-center text-white">
-        <div class="container"><small class="pre-wrap copy-grey">Copyright ©
-                <script>document.write(new Date().getFullYear())</script> Radio Garessio
-            </small></div>
+        <div class="container"><small class="pre-wrap copy-grey">Copyright ©<script>document.write(new Date().getFullYear())</script> Radio Garessio</small></div>
     </section>
     <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
     <div class="scroll-to-top d-lg-none position-fixed"><a
@@ -550,6 +545,11 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json"></link>
+    <script type="module">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+        const el = document.createElement('pwa-update');
+        document.body.appendChild(el);</script>
 </body>
 
 </html>
