@@ -53,10 +53,10 @@
       "purpose": "any maskable"
     }
   ],
-  "start_url": "/",
+  "start_url": "https://alb0174.github.io/main/projects/2021/06/",
   "background_color": "#000000",
   "display": "standalone",
-  "scope": "/",
+  "scope": "https://alb0174.github.io/main/projects/2021/06/",
   "theme_color": "#f4a100",
   "manifestUrl": "https://alb0174.github.io/main/projects/2021/06/manifest.json",
   "lang": "it-IT",
