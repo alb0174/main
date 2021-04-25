@@ -61,7 +61,7 @@
   "manifestUrl": "manifest.json",
   "lang": "it-IT",
   "orientation": "portrait-primary",
-  "categories": ["music", "local news", "community"]
+  "categories": ["music", "local news", "community"],
   "screenshots": [{
     "src": "assets/icons/screenshot.png",
     "type": "image/png",
