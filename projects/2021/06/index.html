@@ -548,10 +548,19 @@
     <!-- Core theme JS-->
     <script type="module" src="js/scripts.js"></script>
     <!--PWA-->
-<script
-  type="module"
-  src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
-></script>
+<script type="module">
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
 </body>
 
 </html>
