@@ -1,4 +1,4 @@
-import swURL from 'sw:/service-worker.js';
+import swURL from 'sw:/main/projects/2021/06/service-worker.js';
 
 // Register the service worker
 if ('serviceWorker' in navigator) {
