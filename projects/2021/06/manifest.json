@@ -58,7 +58,7 @@
   "display": "standalone",
   "scope":"/",
   "theme_color": "#f4a100",
-  "manifestUrl": "/manifest.json",
+  "manifestUrl": "manifest.json",
   "lang": "it-IT",
   "orientation": "portrait-primary",
   "screenshots": [{
