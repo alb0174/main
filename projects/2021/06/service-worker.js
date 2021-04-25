@@ -1,6 +1,6 @@
 console.log('Hello from service-worker.js');
 
-import swURL from 'sw:service-worker.js';
+import swURL from 'sw:/service-worker.js';
 
 // Register the service worker
 if ('serviceWorker' in navigator) {
