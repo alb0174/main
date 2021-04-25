@@ -1,4 +1,4 @@
-console.log('Hello from service-worker.js');
+// console.log('Hello from service-worker.js');
 
 // Choose a cache name
 const cacheName = 'cache-v1';
