@@ -5,8 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="La radio al servizio della nostra comunità.">
+    <link href="https://alb0174.github.io/main/projects/2021/06/" rel="canonical">
     <meta name="author" content="Alberto Savarino">
     <title>Radio Garessio</title>
+    <meta content="#f4a100" name="theme-color">
+    <meta content="https://alb0174.github.io/main/projects/2021/06/" property="og:url">
+    <meta content="website" property="og:type">
+    <meta content="Radio Garessio" property="og:title">
+    <meta content="La radio al servizio della nostra comunità &#127911;" property="og:description">
+    <meta content="https://alb0174.github.io/main/projects/2021/06assets/img/og-1200x600.png" property="og:image">
+    <meta content="Radio Garessio" property="og:image:alt">
+    <meta content="1200" property="og:image:width">
+    <meta content="600" property="og:image:height">
     <!-- Font Awesome icons (free version)-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"
         defer></script>
@@ -30,17 +40,23 @@
     <!-- PWA <link rel="manifest" href="manifest.json"></link> -->
     <link rel="manifest" href="manifest.webmanifest" />
     <script async src="https://unpkg.com/pwacompat" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="assets/icons/icon-128.png" sizes="128x128" />
-    <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+    <link rel="icon" href="https://alb0174.github.io/main/projects/2021/06/icon-32.png" sizes="32x32">
+    <link rel="icon" href="https://alb0174.github.io/main/projects/2021/06/icon-128.png" sizes="128x128">
+    <link rel="icon" href="https://alb0174.github.io/main/projects/2021/06/icon-256.png" sizes="256x256">
+    <link rel="icon" href="https://alb0174.github.io/main/projects/2021/06/icon-512.png" sizes="512x512">
+    <link rel="apple-touch-icon" href="https://alb0174.github.io/main/projects/2021/06/assets/icons/icon-180.png">
     <script type="module">
         // detect iOS Safari
     if (('standalone' in navigator) && (!navigator.standalone)) {
     import('https://unpkg.com/pwacompat');
     }
     </script>
-
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-page-mode" content="app">
+    <meta name="browsermode" content="application">
 </head>
-
 <body id="page-top">
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
         <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">RADIO GARESSIO</a>
@@ -150,6 +166,7 @@
         </div>
     </section>
     <!-- Portfolio Modal-->
+    <!--======= PALINSESTO =======-->
     <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog"
         aria-labelledby="#portfolioModal0Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
@@ -175,91 +192,75 @@
                                     andrò via Passerò tutta l'estate qui Compresi i lunedì! Quelli li odio di più... Non
                                     lo so, ma è così! Odio i lunedì I lunedì</p>
 
-                                <!--==================================
-=            prova tabella            =
-===================================-->
+                                <!--======= TABELLE =======-->
                                 <div class="table-responsive">
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col"></th>
-                                                <th scope="col"></th>
+                                                <th scope="col"><i class="far fa-clock"></i></th>
                                                 <th scope="col">Programma</th>
                                                 <th scope="col">Speaker</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>8-9</td>
+                                                <th scope="row">6</th>
                                                 <td>Sveglia</td>
                                                 <td>Dante</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>9-10</td>
+                                                <th scope="row">8</th>
                                                 <td>E' Mattina</td>
                                                 <td>Carlo</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>10-12</td>
+                                                <th scope="row">9.30</th>
                                                 <td>Casa Dolce Casa</td>
                                                 <td>Franco</td>
                                             </tr>
-                                            <th scope="row"><i class="far fa-clock"></i></th>
-                                            <td>12-13</td>
+                                            <th scope="row">11</th>
                                             <td>Attualità</td>
                                             <td>Aldo</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>13-15</td>
+                                                <th scope="row">12.30</th>
                                                 <td>Digestivo</td>
                                                 <td>Crisante</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>15-16</td>
+                                                <th scope="row">14.00</th>
                                                 <td>Pomeriggio Sport</td>
                                                 <td>Il Gallo</td>
                                             </tr>
-                                            <th scope="row"><i class="far fa-clock"></i></th>
-                                            <td>16-17</td>
+                                            <th scope="row">15.30</th>
                                             <td>Bella Italia</td>
                                             <td>Frenk</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>17-18</td>
+                                                <th scope="row">17.00</th>
                                                 <td>Notizie</td>
                                                 <td>Gioski</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>18-19</td>
+                                                <th scope="row">18.30</th>
                                                 <td>Cucina</td>
                                                 <td>Caravan</td>
                                             </tr>
-                                            <th scope="row"><i class="far fa-clock"></i></th>
-                                            <td>20-21</td>
+                                            <th scope="row">20.00</th>
                                             <td>Liscio</td>
                                             <td>Piero</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>21-23</td>
+                                                <th scope="row">21.30</th>
                                                 <td>Anni 60</td>
                                                 <td>Yan</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row"><i class="far fa-clock"></i></th>
-                                                <td>23-24</td>
+                                                <th scope="row">23.00</th>
                                                 <td>Voci italiane</td>
                                                 <td>Contrado</td>
                                             </tr>
-                                            <th scope="row"><i class="far fa-clock"></i></th>
-                                            <td>24-01</td>
+                                            <th scope="row">0.30</th>
                                             <td>Buonanotte</td>
                                             <td>Fulmio</td>
                                             </tr>
