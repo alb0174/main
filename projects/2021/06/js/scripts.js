@@ -1,4 +1,4 @@
-    /*! PWA */
+    /*! PWA 
 
     import swURL from 'sw:/main/projects/2021/06/service-worker.js';
 
@@ -15,6 +15,17 @@
         }
       });
     }
+    
+    */
+
+navigator.serviceWorker.register('/main/projects/2021/06/service-worker.js').then(
+  function (reg) {
+    console.log('◕‿◕', reg);
+  },
+  function (err) {
+    console.log('ಠ_ಠ', err);
+  },
+);
 
     /*!
      * Start Bootstrap - Freelancer v6.0.0 (https://startbootstrap.com/themes/freelancer)
