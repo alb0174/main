@@ -1,4 +1,4 @@
-    /*! PWA 
+    /*! PWA non va
 
     import swURL from 'sw:/main/projects/2021/06/service-worker.js';
 
@@ -17,6 +17,8 @@
     }
     
     */
+
+/*! PWA ok */
 
 navigator.serviceWorker.register('/main/projects/2021/06/service-worker.js').then(
   function (reg) {
