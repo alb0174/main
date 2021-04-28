@@ -1,5 +1,5 @@
 /*! PWA Start */
-navigator.serviceWorker.register('/main/projects/2021/06/service-worker.js').then(
+navigator.serviceWorker.register('/main/projects/2021/05/service-worker.js').then(
   function (reg) {
     console.log('◕‿◕', reg);
   },
